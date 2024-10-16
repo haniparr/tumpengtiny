@@ -715,6 +715,10 @@ video {
   margin-top: 6rem;
 }
 
+.mt-40{
+  margin-top: 10rem;
+}
+
 .block{
   display: block;
 }
