@@ -1151,6 +1151,10 @@ video {
   background-image: url('/src/img/bg-tumpeng.webp');
 }
 
+.bg-\[url\(\'\/src\/img\/hero-event\.webp\'\)\]{
+  background-image: url('/src/img/hero-event.webp');
+}
+
 .bg-cover{
   background-size: cover;
 }

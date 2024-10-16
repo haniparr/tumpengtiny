@@ -99,17 +99,10 @@
       </div>
     </header>
     <main>
-      <div class="relative">
-        <img
-          alt="A beautifully set table with various dishes and decorations"
-          class="w-full h-screen object-cover"
-          height="1080"
-          src="/src/img/hero-event.webp"
-          width="1920"
-        />
-        <div
-          class="absolute bottom-0 left-28 bg-orange-300 p-8 rounded-t-2xl w-[720px]"
-        >
+      <div
+        class="bg-[url('/src/img/hero-event.webp')] bg-cover bg-center bg-no-repeat h-screen flex items-end px-36"
+      >
+        <div class="w-[720px] h-80 bg-orange-300 px-6 py-11 rounded-t-xl">
           <h1 class="text-5xl font-bold text-orange-100 leading-tight">
             Meskipun kecil tapi <br />
             tenang semua kebagian
@@ -169,6 +162,43 @@
                 alt=""
                 class="object-cover"
               />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-28 h-screen bg-[url('/src/img/bg-circle.webp')] bg-contain bg-center bg-no-repeat flex flex-col justify-center items-center"
+      >
+        <div class="container px-10">
+          <h1
+            class="text-5xl font-bold mx-auto text-center text-taupe-500 leading-tight"
+          >
+            Kenapa memilih kita?
+          </h1>
+          <p class="mt-4 text-center text-3xl text-taupe-400">
+            Lorem ipsum dolor sit amet consectetur. A venenatis convallis in
+            gravida ante commodo diam. Platea pulvinar aliquet euismod pretium
+            sit.
+          </p>
+          <div class="bg-orange-100 w-full mx-4 mt-16">
+            <div class="w-full">
+              <img
+                src="/src/img/sender.webp"
+                alt="sender"
+                class="mx-auto h-[352px]"
+              />
+            </div>
+            <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
+              <div class="rounded-lg">
+                <img
+                  src="/src/img/experience.webp"
+                  alt="sender"
+                  class="mx-auto"
+                />
+              </div>
+              <div class="rounded-lg">
+                <img src="/src/img/cocok.webp" alt="sender" class="mx-auto" />
+              </div>
             </div>
           </div>
         </div>
