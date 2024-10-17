@@ -844,8 +844,29 @@ video {
   height: 20rem;
 }
 
+.h-72{
+  height: 18rem;
+}
+
+.h-max{
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-4{
+  height: 1rem;
+}
+
+.h-7{
+  height: 1.75rem;
+}
+
 .min-h-64{
   min-height: 16rem;
+}
+
+.min-h-screen{
+  min-height: 100vh;
 }
 
 .w-16{
@@ -902,6 +923,15 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-max{
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-36{
+  width: 9rem;
 }
 
 .max-w-max{
@@ -1135,6 +1165,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 29 29 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/src\/img\/bg-circle\.webp\'\)\]{
   background-image: url('/src/img/bg-circle.webp');
 }
@@ -1169,6 +1204,11 @@ video {
 
 .bg-no-repeat{
   background-repeat: no-repeat;
+}
+
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover{
@@ -1256,6 +1296,16 @@ video {
 .py-11{
   padding-top: 2.75rem;
   padding-bottom: 2.75rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pr-14{
@@ -1513,6 +1563,18 @@ video {
     margin-top: 6rem;
   }
 
+  .lg\:mr-0{
+    margin-right: 0px;
+  }
+
+  .lg\:mt-40{
+    margin-top: 10rem;
+  }
+
+  .lg\:mt-10{
+    margin-top: 2.5rem;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -1545,6 +1607,27 @@ video {
     height: 100%;
   }
 
+  .lg\:h-\[352px\]{
+    height: 352px;
+  }
+
+  .lg\:h-max{
+    height: -moz-max-content;
+    height: max-content;
+  }
+
+  .lg\:h-\[868px\]{
+    height: 868px;
+  }
+
+  .lg\:h-\[1052px\]{
+    height: 1052px;
+  }
+
+  .lg\:h-9{
+    height: 2.25rem;
+  }
+
   .lg\:w-16{
     width: 4rem;
   }
@@ -1575,6 +1658,18 @@ video {
 
   .lg\:w-\[466px\]{
     width: 466px;
+  }
+
+  .lg\:w-\[720px\]{
+    width: 720px;
+  }
+
+  .lg\:w-full{
+    width: 100%;
+  }
+
+  .lg\:w-\[770px\]{
+    width: 770px;
   }
 
   .lg\:grid-cols-1{
@@ -1659,6 +1754,21 @@ video {
     padding-bottom: 1rem;
   }
 
+  .lg\:px-36{
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .lg\:py-11{
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+  }
+
+  .lg\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
@@ -1684,6 +1794,16 @@ video {
 
   .lg\:text-\[52px\]{
     font-size: 52px;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:leading-tight{

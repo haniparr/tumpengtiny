@@ -100,57 +100,25 @@
     </header>
     <main>
       <div
-        class="bg-[url('/src/img/hero-event.webp')] bg-cover bg-center bg-no-repeat h-screen flex items-end px-36"
+        class="bg-[url('/src/img/hero-event.webp')] bg-cover bg-center bg-no-repeat min-h-screen flex items-end px-5 lg:px-36"
       >
-        <div class="w-[720px] h-80 bg-orange-300 px-6 py-11 rounded-t-xl">
-          <h1 class="text-5xl font-bold text-orange-100 leading-tight">
-            Meskipun kecil tapi <br />
-            tenang semua kebagian
-          </h1>
-          <p class="text-orange-100 text-lg mt-2">
-            Lorem ipsum dolor sit amet consectetur. Morbi eros ut sapien non
-            venenatis ut in vivamus mauris. Platea morbi gravida leo aliquam sed
-            sit lectus sit aliquam.
-          </p>
-          <button>
-            <a
-              class="mt-3 text-lg group flex items-center justify-between gap-4 rounded-xl border border-blue-200 bg-blue-300 px-4 py-3 transition-colors hover:bg-orange-300/90 focus:outline-none focus:ring"
-              href="#"
-            >
-              <span
-                class="shrink-0 rounded-full border border-current bg-white p-2 text-indigo-600 group-active:text-indigo-500"
-              >
-              </span>
-              <span
-                class="font-medium text-white transition-colors group-hover:text-indigo-600 group-active:text-indigo-500"
-              >
-                Konsultasi dengan kami
-              </span>
-            </a>
-          </button>
-        </div>
-      </div>
-      <div class="relative">
-        <img
-          alt="A beautifully set table with various dishes and decorations"
-          class="w-full h-screen object-cover"
-          height="1080"
-          src="/src/img/hero-event.webp"
-          width="1920"
-        />
         <div
-          class="absolute bottom-0 left-28 bg-orange-300 p-8 rounded-t-2xl w-[720px]"
+          class="lg:w-[720px] lg:h-80 w-[345px] h-max bg-orange-300 px-6 py-8 lg:py-11 rounded-t-xl flex flex-col"
         >
-          <h1 class="text-5xl font-bold text-orange-100 leading-tight">
+          <h1
+            class="text-3xl lg:text-5xl font-bold text-center lg:text-left text-orange-100 leading-tight"
+          >
             Meskipun kecil tapi <br />
             tenang semua kebagian
           </h1>
-          <p class="text-orange-100 text-lg mt-2">
+          <p
+            class="text-orange-100 text-sm lg:text-left text-center lg:text-lg mt-2"
+          >
             Lorem ipsum dolor sit amet consectetur. Morbi eros ut sapien non
             venenatis ut in vivamus mauris. Platea morbi gravida leo aliquam sed
             sit lectus sit aliquam.
           </p>
-          <button>
+          <button class="w-max mx-auto lg:mx-0">
             <a
               class="mt-3 text-lg group flex items-center justify-between gap-4 rounded-xl border border-blue-200 bg-blue-300 px-4 py-3 transition-colors hover:bg-orange-300/90 focus:outline-none focus:ring"
               href="#"
@@ -168,6 +136,7 @@
           </button>
         </div>
       </div>
+
       <div>
         <div class="mx-auto mt-28">
           <h1
@@ -209,63 +178,65 @@
       >
         <div class="container px-10">
           <h1
-            class="text-5xl font-bold mx-auto text-center text-taupe-500 leading-tight"
+            class="text-3xl lg:text-5xl font-bold mx-auto text-center text-taupe-500 leading-tight"
           >
             Kenapa memilih kita?
           </h1>
-          <p class="mt-4 text-center text-3xl text-taupe-400">
+          <p class="mt-4 text-center text-lg lg:text-3xl text-taupe-400">
             Lorem ipsum dolor sit amet consectetur. A venenatis convallis in
             gravida ante commodo diam. Platea pulvinar aliquet euismod pretium
             sit.
           </p>
           <div class="bg-orange-100 w-full mx-4 mt-16">
-            <div class="w-full">
+            <div class="h-36 lg:h-max lg:w-full">
               <img
                 src="/src/img/sender.webp"
                 alt="sender"
-                class="mx-auto h-[352px]"
+                class="mx-auto object-contain h-full lg:h-[352px]"
               />
             </div>
-            <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
-              <div class="rounded-lg">
+            <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 mt-2">
+              <div class="h-36 lg:h-max">
                 <img
                   src="/src/img/experience.webp"
                   alt="sender"
-                  class="mx-auto"
+                  class="mx-auto object-contain h-full"
                 />
               </div>
-              <div class="rounded-lg">
-                <img src="/src/img/cocok.webp" alt="sender" class="mx-auto" />
+              <div class="h-36 lg:h-max">
+                <img
+                  src="/src/img/cocok.webp"
+                  alt="sender"
+                  class="mx-auto object-contain h-full"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div
-        class="mt-40 h-[1052px] bg-[url('/src/img/bg-tumpeng.webp')] bg-contain bg-center bg-no-repeat flex flex-col items-center"
+        class="mt-20 lg:mt-40 lg:h-[1052px] bg-[url('/src/img/bg-tumpeng.webp')] bg-contain bg-center bg-no-repeat flex flex-col items-center"
       >
         <div class="container px-10">
           <h1
-            class="text-5xl font-bold mx-auto text-center text-taupe-500 leading-tight"
+            class="text-3xl lg:text-5xl font-bold mx-auto text-center text-taupe-500 leading-tight"
           >
             Package
           </h1>
-          <p class="mt-4 text-center text-3xl text-taupe-400">
+          <p class="mt-4 text-center text-lg lg:text-3xl text-taupe-400">
             Lorem ipsum dolor sit amet consectetur. A venenatis convallis in
             gravida ante commodo diam. Platea pulvinar aliquet euismod pretium
             sit.
           </p>
           <div
-            class="mt-8 w-[770px] h-[868px] border-2 bg-orange-100 border-orange-200 rounded-2xl py-12 px-8 mx-auto"
+            class="mt-8 lg:w-[770px] lg:h-[868px] border-2 bg-orange-100 border-orange-200 rounded-2xl py-4 lg:py-12 px-4 lg:px-8 mx-auto"
           >
             <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-6">
               <div class="rounded-lg bg-blue-100 border border-blue-200">
-                <div
-                  class="grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-2 py-5 px-8"
-                >
+                <div class="grid grid-cols-1 gap-2 py-5 px-4 lg:px-8">
                   <div class="rounded-lg">
-                    <div class="grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-2">
-                      <div class="h-9 rounded-lg flex gap-2 justify-center">
+                    <div class="grid grid-cols-1 gap-2">
+                      <div class="h-9 flex gap-2 justify-center">
                         <svg
                           width="33"
                           height="33"
@@ -279,13 +250,23 @@
                             fill="#884716"
                           />
                         </svg>
-                        <p class="text-3xl font-medium text-blue-400">Tiny</p>
+                        <p
+                          class="text-lg lg:text-3xl font-medium text-blue-400"
+                        >
+                          Tiny
+                        </p>
                       </div>
                       <div
-                        class="h-14 rounded-lg flex justify-center items-start gap-2"
+                        class="h-max rounded-lg flex justify-center items-start gap-2"
                       >
-                        <h6 class="text-lg font-semibold text-blue-500">Rp.</h6>
-                        <h2 class="text-5xl font-semibold text-blue-500">
+                        <h6
+                          class="text-sm lg:text-lg font-semibold text-blue-500"
+                        >
+                          Rp.
+                        </h6>
+                        <h2
+                          class="text-2xl lg:text-5xl font-semibold text-blue-500"
+                        >
                           35.000
                         </h2>
                       </div>
@@ -350,7 +331,7 @@
                         <p>Free Delivery</p>
                       </div>
                     </div>
-                    <div class="flex justify-center mt-10">
+                    <div class="flex justify-center mt-3 lg:mt-10">
                       <button class="">
                         <a
                           class="text-lg group flex items-center justify-between gap-4 rounded-xl border border-orange-200 bg-orange-300 px-4 py-3 transition-colors hover:bg-orange-300/90 focus:outline-none focus:ring"
@@ -372,12 +353,10 @@
                 </div>
               </div>
               <div class="rounded-lg bg-blue-100 border border-blue-200">
-                <div
-                  class="grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-2 py-5 px-8"
-                >
+                <div class="grid grid-cols-1 gap-2 py-5 px-4 lg:px-8">
                   <div class="rounded-lg">
-                    <div class="grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-2">
-                      <div class="h-9 rounded-lg flex gap-2 justify-center">
+                    <div class="grid grid-cols-1 gap-2">
+                      <div class="h-9 flex gap-2 justify-center">
                         <svg
                           width="33"
                           height="33"
@@ -391,13 +370,23 @@
                             fill="#884716"
                           />
                         </svg>
-                        <p class="text-3xl font-medium text-blue-400">Tiny</p>
+                        <p
+                          class="text-lg lg:text-3xl font-medium text-blue-400"
+                        >
+                          Tiny
+                        </p>
                       </div>
                       <div
-                        class="h-14 rounded-lg flex justify-center items-start gap-2"
+                        class="h-max rounded-lg flex justify-center items-start gap-2"
                       >
-                        <h6 class="text-lg font-semibold text-blue-500">Rp.</h6>
-                        <h2 class="text-5xl font-semibold text-blue-500">
+                        <h6
+                          class="text-sm lg:text-lg font-semibold text-blue-500"
+                        >
+                          Rp.
+                        </h6>
+                        <h2
+                          class="text-2xl lg:text-5xl font-semibold text-blue-500"
+                        >
                           35.000
                         </h2>
                       </div>
@@ -462,7 +451,7 @@
                         <p>Free Delivery</p>
                       </div>
                     </div>
-                    <div class="flex justify-center mt-10">
+                    <div class="flex justify-center mt-3 lg:mt-10">
                       <button class="">
                         <a
                           class="text-lg group flex items-center justify-between gap-4 rounded-xl border border-orange-200 bg-orange-300 px-4 py-3 transition-colors hover:bg-orange-300/90 focus:outline-none focus:ring"
@@ -484,12 +473,10 @@
                 </div>
               </div>
               <div class="rounded-lg bg-blue-100 border border-blue-200">
-                <div
-                  class="grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-2 py-5 px-8"
-                >
+                <div class="grid grid-cols-1 gap-2 py-5 px-4 lg:px-8">
                   <div class="rounded-lg">
-                    <div class="grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-2">
-                      <div class="h-9 rounded-lg flex gap-2 justify-center">
+                    <div class="grid grid-cols-1 gap-2">
+                      <div class="h-9 flex gap-2 justify-center">
                         <svg
                           width="33"
                           height="33"
@@ -503,13 +490,23 @@
                             fill="#884716"
                           />
                         </svg>
-                        <p class="text-3xl font-medium text-blue-400">Tiny</p>
+                        <p
+                          class="text-lg lg:text-3xl font-medium text-blue-400"
+                        >
+                          Tiny
+                        </p>
                       </div>
                       <div
-                        class="h-14 rounded-lg flex justify-center items-start gap-2"
+                        class="h-max rounded-lg flex justify-center items-start gap-2"
                       >
-                        <h6 class="text-lg font-semibold text-blue-500">Rp.</h6>
-                        <h2 class="text-5xl font-semibold text-blue-500">
+                        <h6
+                          class="text-sm lg:text-lg font-semibold text-blue-500"
+                        >
+                          Rp.
+                        </h6>
+                        <h2
+                          class="text-2xl lg:text-5xl font-semibold text-blue-500"
+                        >
                           35.000
                         </h2>
                       </div>
@@ -574,7 +571,7 @@
                         <p>Free Delivery</p>
                       </div>
                     </div>
-                    <div class="flex justify-center mt-10">
+                    <div class="flex justify-center mt-3 lg:mt-10">
                       <button class="">
                         <a
                           class="text-lg group flex items-center justify-between gap-4 rounded-xl border border-orange-200 bg-orange-300 px-4 py-3 transition-colors hover:bg-orange-300/90 focus:outline-none focus:ring"
@@ -596,12 +593,10 @@
                 </div>
               </div>
               <div class="rounded-lg bg-blue-100 border border-blue-200">
-                <div
-                  class="grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-2 py-5 px-8"
-                >
+                <div class="grid grid-cols-1 gap-2 py-5 px-4 lg:px-8">
                   <div class="rounded-lg">
-                    <div class="grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-2">
-                      <div class="h-9 rounded-lg flex gap-2 justify-center">
+                    <div class="grid grid-cols-1 gap-2">
+                      <div class="h-9 flex gap-2 justify-center">
                         <svg
                           width="33"
                           height="33"
@@ -615,13 +610,23 @@
                             fill="#884716"
                           />
                         </svg>
-                        <p class="text-3xl font-medium text-blue-400">Tiny</p>
+                        <p
+                          class="text-lg lg:text-3xl font-medium text-blue-400"
+                        >
+                          Tiny
+                        </p>
                       </div>
                       <div
-                        class="h-14 rounded-lg flex justify-center items-start gap-2"
+                        class="h-max rounded-lg flex justify-center items-start gap-2"
                       >
-                        <h6 class="text-lg font-semibold text-blue-500">Rp.</h6>
-                        <h2 class="text-5xl font-semibold text-blue-500">
+                        <h6
+                          class="text-sm lg:text-lg font-semibold text-blue-500"
+                        >
+                          Rp.
+                        </h6>
+                        <h2
+                          class="text-2xl lg:text-5xl font-semibold text-blue-500"
+                        >
                           35.000
                         </h2>
                       </div>
@@ -686,7 +691,7 @@
                         <p>Free Delivery</p>
                       </div>
                     </div>
-                    <div class="flex justify-center mt-10">
+                    <div class="flex justify-center mt-3 lg:mt-10">
                       <button class="">
                         <a
                           class="text-lg group flex items-center justify-between gap-4 rounded-xl border border-orange-200 bg-orange-300 px-4 py-3 transition-colors hover:bg-orange-300/90 focus:outline-none focus:ring"
