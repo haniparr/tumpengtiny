@@ -6,7 +6,7 @@ module.exports = {
     "./src/**/*.{html,js}",
     "./index.html",
     "./event/index.html",
-    "./order/**/*.{html,js}",
+    "./cara-order/**/*.{html,js}",
   ],
   theme: {
     colors: {
